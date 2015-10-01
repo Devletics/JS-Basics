@@ -89,13 +89,13 @@ myName();
   return "Josh";
 }
 
-  var newMyName = myName();
+  var newMyName = myName;
   
 
 
 //Now alert the result of invoking newMyName
 
-alert(newMyName);
+alert(newMyName());
 
 //Next problem
 
@@ -119,3 +119,5 @@ alert(newMyName);
   
 //Now invoke innerFn.
 console.log(x());
+
+
