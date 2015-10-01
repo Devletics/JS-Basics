@@ -103,7 +103,6 @@ alert(newMyName);
 
 //Create a function called outerFn which returns an anonymous function which returns your name.
 
-
   //Code Here
   
   var outerFn = function() {
@@ -117,5 +116,6 @@ alert(newMyName);
   //Code Here
   
   var x = outerFn();
-  console.log(x);
+  
 //Now invoke innerFn.
+console.log(x());
